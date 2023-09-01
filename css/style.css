@@ -57,16 +57,31 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  align-items: start;
   justify-content: space-between;
 }
 nav img {
-  height: 30px;
+  height: 19px;
   padding: 30px 50px;
 }
 
 nav a {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 400;
+  float: left;
+  padding-top: 14px;
   margin-left: 68px;
+}
+
+nav a:hover {
+  border-top: 2px #0065fc solid;
+  color: #0065fc;
+}
+
+nav a.active {
+  border-top: 2px #0065fc solid;
+  color: #0065fc;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -130,6 +145,42 @@ nav a {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+/****** Footer ***********/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background: #f2f2f2;
+  margin-top: 35px;
+}
+.footerLink {
+  padding: 20px;
+  width: 407px;
+}
+
+footer ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+}
+
+footer p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
