@@ -2,5 +2,7 @@
     "[html]": {
         "editor.tabSize": 4
     },
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "editor.accessibilityPageSize": 500,
+    "editor.fontSize": 16
 }
