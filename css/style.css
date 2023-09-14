@@ -397,7 +397,7 @@ footer p {
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
-/****** Media queries ***********/
+/************ Media queries ***********/
 
 /* Hide Search button with icon for screen >1024px */
 
@@ -468,7 +468,7 @@ footer p {
         padding: 0;
     }
 
-    /*                  mobile navigation                    */
+    /************** mobile navigation *************/
 
     .nav {
         display: flex;
@@ -506,7 +506,7 @@ footer p {
         text-align: center;
     }
 
-    /*                  search section                    */
+    /************ search section *************/
 
     .search {
         padding: 0px 20px 0px 20px;
@@ -517,6 +517,7 @@ footer p {
     }
 
     .searchform {
+        width: 100%;
         display: flex;
     }
 
@@ -557,7 +558,7 @@ footer p {
         cursor: pointer;
     }
 
-    /*                  Filters section                    */
+    /************ Filters section **************/
 
     .filtersField {
         justify-content: space-between;
@@ -576,14 +577,14 @@ footer p {
         margin: 20px 0 0 0;
     }
 
-    /*                  Hebergements and populaires section                    */
+    /************ Hebergements and populaires section ************/
 
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    /*                  Populaires section                    */
+    /************ Populaires section ************/
     .populaires {
         width: 100%;
     }
@@ -599,7 +600,7 @@ footer p {
         margin: 15px 0 0 0;
     }
 
-    /*                  Hebergements section                    */
+    /**************  Hebergements section **************/
 
     #hebergements {
         background: #ffffff;
@@ -618,7 +619,7 @@ footer p {
         margin-top: 15px;
     }
 
-    /*                  Activites section                    */
+    /*************** Activites section ***************/
 
     .activitesCards {
         display: flex;
@@ -645,11 +646,14 @@ footer p {
         margin-top: 25px;
     }
 
-    /*                  Footer section                    */
+    /**************** Footer section ****************/
 
     footer {
         display: flex;
         flex-direction: column;
 
+    }
+    .footerLink {
+        width: 80%;
     }
 }
