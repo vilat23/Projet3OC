@@ -359,7 +359,6 @@ body {
 }
 
 /****** Footer ***********/
-
 footer {
     display: flex;
     flex-direction: row;
@@ -469,7 +468,6 @@ footer p {
     }
 
     /************** mobile navigation *************/
-
     .nav {
         display: flex;
         flex-direction: column;
@@ -507,7 +505,6 @@ footer p {
     }
 
     /************ search section *************/
-
     .search {
         padding: 0px 20px 0px 20px;
     }
@@ -559,7 +556,6 @@ footer p {
     }
 
     /************ Filters section **************/
-
     .filtersField {
         justify-content: space-between;
         flex-wrap: wrap;
@@ -578,7 +574,6 @@ footer p {
     }
 
     /************ Hebergements and populaires section ************/
-
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
@@ -601,7 +596,6 @@ footer p {
     }
 
     /**************  Hebergements section **************/
-
     #hebergements {
         background: #ffffff;
         width: 100%;
@@ -620,7 +614,6 @@ footer p {
     }
 
     /*************** Activites section ***************/
-
     .activitesCards {
         display: flex;
         flex-direction: column;
@@ -647,7 +640,6 @@ footer p {
     }
 
     /**************** Footer section ****************/
-
     footer {
         display: flex;
         flex-direction: column;
